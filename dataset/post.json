@@ -1,0 +1,167 @@
+[
+  {
+    "titre": "Pourquoi MongoDB est idéal pour les blogs modernes",
+    "contenu": "Dans cet article, nous explorons les avantages de MongoDB pour gérer le contenu d'un blog. Sa flexibilité permet de stocker des articles, des commentaires et des métadonnées de manière efficace, sans avoir à définir un schéma rigide à l'avance. Nous verrons aussi comment optimiser les requêtes pour une expérience utilisateur fluide.",
+    "auteur": {
+      "id": "hugo@example.com",
+      "nom": "Hugo"
+    },
+    "tags": ["mongodb", "nosql", "blog", "bases de données"],
+    "date_publication": "2025-10-01T10:00:00",
+    "vue": 250,
+    "commentaires": [
+      {
+        "_id": "cmt_001",
+        "auteur": {
+          "id": "alice@example.com",
+          "nom": "Alice"
+        },
+        "contenu": "Super article Hugo ! J'ai appris plein de choses sur MongoDB. Est-ce que tu pourrais faire un tutoriel sur l'indexation ?",
+        "date": "2025-10-01T12:30:00",
+        "reponses": [
+          {
+            "auteur": {
+              "id": "bob@example.com",
+              "nom": "Bob"
+            },
+            "contenu": "Oui, un tutoriel sur l'indexation serait vraiment utile !",
+            "date": "2025-10-01T14:15:00"
+          },
+          {
+            "auteur": {
+              "id": "hugo@example.com",
+              "nom": "Hugo"
+            },
+            "contenu": "Merci pour vos retours ! Je vais préparer ça pour la semaine prochaine.",
+            "date": "2025-10-01T15:45:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Mariette : une révolution culinaire ?",
+    "contenu": "Mariette a marqué l'année 2025 avec son dernier tacos. Dans cet article, nous analysons son impact sur la scène universitaire française et pourquoi ses sandwichs résonnent autant avec le public. Une plongée dans l'univers d'une artiste qui ne laisse personne indifférent.",
+    "auteur": {
+      "id": "evan@example.com",
+      "nom": "Evan"
+    },
+    "tags": ["nourriture", "mariette", "culture", "2025"],
+    "date_publication": "2025-09-28T09:15:00",
+    "vue": 420,
+    "commentaires": [
+      {
+        "_id": "cmt_002",
+        "auteur": {
+          "id": "bob@example.com",
+          "nom": "Bob"
+        },
+        "contenu": "Evan, tu as parfaitement capté l'essence de son offre ! Mon produit préféré reste le café allongé !.",
+        "date": "2025-09-28T11:20:00",
+        "reponses": [
+          {
+            "auteur": {
+              "id": "alice@example.com",
+              "nom": "Alice"
+            },
+            "contenu": "Je suis d'accord avec Bob, le café allongé est une pépite !",
+            "date": "2025-09-28T13:05:00"
+          },
+          {
+            "auteur": {
+              "id": "evan@example.com",
+              "nom": "Evan"
+            },
+            "contenu": "Merci à vous deux ! C'est vrai que ce café est magique.",
+            "date": "2025-09-28T15:30:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Git : les commandes qui sauvent la mise",
+    "contenu": "Git est un outil puissant, mais il peut parfois sembler complexe. Dans cet article, je partage les commandes Git qui m'ont sauvé la mise à plusieurs reprises, que ce soit pour annuler des changements, retrouver un commit perdu ou résoudre des conflits. Parce que même les meilleurs développeurs font des erreurs !",
+    "auteur": {
+      "id": "elisia@example.com",
+      "nom": "Elisia"
+    },
+    "tags": ["git", "développement", "outils", "bonnes pratiques"],
+    "date_publication": "2025-10-05T16:00:00",
+    "vue": 310,
+    "commentaires": [
+      {
+        "_id": "cmt_003",
+        "auteur": {
+          "id": "alice@example.com",
+          "nom": "Alice"
+        },
+        "contenu": "Elisia, ton article est une vraie bouée de sauvetage ! J'ai déjà perdu des heures à cause de mauvaises manipulations Git. Merci pour ces astuces !",
+        "date": "2025-10-05T17:30:00",
+        "reponses": [
+          {
+            "auteur": {
+              "id": "bob@example.com",
+              "nom": "Bob"
+            },
+            "contenu": "Je plussoie ! La commande `git reflog` m'a sauvé plus d'une fois.",
+            "date": "2025-10-05T18:45:00"
+          },
+          {
+            "auteur": {
+              "id": "elisia@example.com",
+              "nom": "Elisia"
+            },
+            "contenu": "Ravi que ça vous aide ! N'hésitez pas si vous avez d'autres questions.",
+            "date": "2025-10-05T19:10:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "titre": "Le tigre fou : une métaphore du développement agile ?",
+    "contenu": "Dans cet article un peu décalé, je compare la méthodologie agile à un tigre fou : rapide, imprévisible, mais incroyablement efficace quand on sait l'apprivoiser. Je partage mes expériences en tant que développeur et comment j'ai appris à dompter cette bête pour livrer des projets dans les temps.",
+    "auteur": {
+      "id": "mathis@example.com",
+      "nom": "Mathis"
+    },
+    "tags": [
+      "agile",
+      "développement",
+      "méthodologie",
+      "humour"
+    ],
+    "date_publication": "2025-09-25T08:30:00",
+    "vue": 180,
+    "commentaires": [
+      {
+        "_id": "cmt_004",
+        "auteur": {
+          "id": "bob@example.com",
+          "nom": "Bob"
+        },
+        "contenu": "Mathis, ton article est hilarant ET instructif ! J'adore la comparaison avec le tigre fou. Est-ce que tu as des conseils pour les équipes qui débutent en agile ?",
+        "date": "2025-09-25T10:15:00",
+        "reponses": [
+          {
+            "auteur": {
+              "id": "alice@example.com",
+              "nom": "Alice"
+            },
+            "contenu": "Oui, Mathis, des conseils pour éviter de se faire 'manger' par le tigre ?",
+            "date": "2025-09-25T11:20:00"
+          },
+          {
+            "auteur": {
+              "id": "mathis@example.com",
+              "nom": "Mathis"
+            },
+            "contenu": "Merci pour vos retours ! Mon premier conseil : ne jamais tourner le dos au tigre (aka toujours faire des rétrospectives). Je ferai un article plus détaillé sur le sujet !",
+            "date": "2025-09-25T12:00:00"
+          }
+        ]
+      }
+    ]
+  }
+]

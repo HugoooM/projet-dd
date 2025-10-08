@@ -1,0 +1,42 @@
+[
+  {
+    "nom": "Hugo",
+    "email": "hugo@example.com",
+    "date_inscription": "2023-10-01",
+    "bio": "Passionné de bases de données",
+    "role": "auteur"
+  },
+  {
+    "nom": "Evan",
+    "email": "evan@example.com",
+    "date_inscription": "2024-05-15",
+    "bio": "Passionné de Mariette",
+    "role": "auteur"
+  },
+  {
+    "nom": "Elisia",
+    "email": "elisia@example.com",
+    "date_inscription": "2025-10-08",
+    "bio": "Git breaker",
+    "role": "auteur"
+  },
+  {
+    "nom": "Mathis",
+    "email": "mathis@example.com",
+    "date_inscription": "2022-04-10",
+    "bio": "Mathis aka le tigre fou",
+    "role": "auteur"
+  },
+  {
+    "nom": "Alice",
+    "email": "alice@example.com",
+    "date_inscription": "2022-04-10",
+    "role": "lecteur"
+  },
+  {
+    "nom": "Bob",
+    "email": "bob@example.com",
+    "date_inscription": "2022-04-10",
+    "role": "lecteur"
+  }
+]

@@ -1,8 +1,20 @@
--- Création de la base de données (optionnel, si vous avez les droits)
-CREATE
-DATABASE blog_db;
-\c
-blog_db  -- Se connecter à la base de données
+-- Créer l'utilisateur
+CREATE USER blog_user WITH PASSWORD 'postgresql';
+
+-- Créer la base de données
+CREATE DATABASE blog_db;
+
+-- Se connecter à la base de données
+\c blog_db
+
+-- Donner tous les droits sur toutes les tables à blog_user
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO blog_user;
+
+-- Donner les droits pour créer de nouvelles tables (optionnel)
+GRANT ALL PRIVILEGES ON SCHEMA public TO blog_user;
+
+-- Donner les droits pour les futures tables
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON TABLES TO blog_user;
 
 -- Création de la table Utilisateur
 CREATE TABLE Utilisateur

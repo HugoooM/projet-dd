@@ -1,5 +1,8 @@
 # Projet : Comparaison des architectures SGBD (NoSQL vs Relationnel)
 
+**Groupe**
+CHARRIER Evan, GAULTIER Mthis ,	MONTIÈGE Hugo, KOUMBA Elisia
+
 **Sujet** :
 Mettre en évidence les avantages et inconvénients liés au choix de l'architecture du SGBD (NoSQL/Relationnel) d'un point de vue développement, conception et performance.
 
@@ -48,7 +51,6 @@ Mettre en évidence les avantages et inconvénients liés au choix de l'architec
 
 - **PostgreSQL**:
 
-    - Ajouter des requêtes équivalentes à celles de MongoDB pour comparer les performances.
     - Mettre en évidence les jointures et leur impact sur la performance.
 
 2. **Créer un dataset adapté au relationnel**

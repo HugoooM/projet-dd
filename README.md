@@ -1,7 +1,7 @@
 # Projet : Comparaison des architectures SGBD (NoSQL vs Relationnel)
 
 **Groupe**
-CHARRIER Evan, GAULTIER Mthis ,	MONTIÈGE Hugo, KOUMBA Elisia
+CHARRIER Evan, GAULTIER Mathis , MONTIÈGE Hugo, KOUMBA Elisia
 
 **Sujet** :
 Mettre en évidence les avantages et inconvénients liés au choix de l'architecture du SGBD (NoSQL/Relationnel) d'un point de vue développement, conception et performance.

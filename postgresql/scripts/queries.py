@@ -1,7 +1,6 @@
 """
 Script de requêtes PostgreSQL pour le projet de comparaison NoSQL vs Relationnel.
-Illustre les requêtes complexes avec jointures et leur impact sur la performance.
-Tests et benchmarks des requêtes PostgreSQL.
+
 """
 
 import os
@@ -11,10 +10,10 @@ from dotenv import load_dotenv
 import psycopg2
 from psycopg2.extras import RealDictCursor
 
-# Charger les variables d'environnement depuis .env
+# On charge les variables d'environnement depuis .env
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
-# Configuration de la connexion depuis les variables d'environnement
+# On configure la connexion depuis les variables d'environnement
 DB_CONFIG = {
     'host': os.getenv('DB_HOST', 'localhost'),
     'database': os.getenv('DB_NAME', 'blog_db'),
@@ -117,7 +116,7 @@ def query_2_add_rating_to_article():
     """
     conn = get_connection()
     
-    # D'abord, vérifier si la colonne existe, sinon l'ajouter
+    # D'abord, on vérifie si la colonne existe, sinon on l'ajoute
     alter_query = """
     DO $$ 
     BEGIN
@@ -132,7 +131,7 @@ def query_2_add_rating_to_article():
     
     execute_query(conn, alter_query, fetch=False)
     
-    # Mettre à jour l'article avec une note
+    # On met à jour l'article avec une note
     update_query = """
     UPDATE Article 
     SET note = %s 
@@ -385,6 +384,6 @@ def benchmark_queries():
 
 
 if __name__ == '__main__':
-    # Exécuter toutes les requêtes avec benchmark
+    # On exécute toutes les requêtes avec benchmark
     benchmark_queries()
 

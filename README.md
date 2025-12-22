@@ -13,13 +13,21 @@ Mettre en évidence les avantages et inconvénients liés au choix de l'architec
 - Illustrer les forces et faiblesses de chaque architecture en termes de :
   - Flexibilité du schéma
   - Complexité de développement
-  - Performance des requêtes
   - Évolutivité
-- Produire un poster et un notebook synthétique pour présenter les résultats.
+- Produire un notebook synthétique pour présenter les résultats.
 
 ---
 
-## Ce qui est fait
+## Organisation du projet
+Pour ce projet, nous avons simulé une base de données d'un blog avec des données utilisateurs (`users`) et des données 
+articles (`posts`). Ces données sont enregistrées dans le répertoire `datasets`.
+
+Le répertoire `mongodb` contient les scripts spécifiques à l'utilisation de *mongodb* ainsi qu'un fichier 
+`requirements.txt` afin de créer un environnement virtuel Python pour les scripts.
+Le répertoire `postgresql` contient les scripts spécifiques à l'utilisation de *PostgreSQL* ainsi qu'un fichier 
+`requirements.txt` afin de créer un environnement virtuel Python pour les scripts. Ce répertoire contient aussi un 
+fichier `README.md` détaillant le fonctionnement et l'utilisation des scripts.
+
 
 ### 1. Génération des datasets
 - **Données utilisateurs** (`users`) et **Données articles** (`posts`):

@@ -38,7 +38,7 @@ Lancer les requêtes :
 python scripts/queries.py
 ```
 
-Le script exécute 6 requêtes différentes et affiche le temps d'exécution de chacune.
+Le script exécute différentes requêtes et affiche le temps d'exécution de chacune.
 
 ## Les requêtes
 

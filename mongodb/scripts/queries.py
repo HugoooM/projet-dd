@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
     resultats = list(posts_col.aggregate(pipeline))
 
-    print("Résultat requête 4")
+    print("Résultat requête 3")
     for article in resultats:
         print(f"Titre : {article['titre']}")
         print(f"Auteur : {article['auteur']['nom']}")

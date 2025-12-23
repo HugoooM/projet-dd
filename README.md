@@ -91,13 +91,3 @@ fichier `README.md` détaillant le fonctionnement et l'utilisation des scripts.
 - **Liens vers le code source** :
 
 - Référencer les fichiers Python et SQL pour les détails techniques.
-
-5. **Poster**
-
-- Basé sur le notebook, avec :
-
-    - Des graphiques de performance.
-    - Des extraits de code clés.
-    - Une comparaison NoSQL vs Relationnel.
-
-
